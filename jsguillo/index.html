@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Proyecto: Eventos en JavaScript</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <h1>🎯 Mini Proyecto: Aprende addEventListener</h1>
+
+    <!-- Ejercicio 1: Clic en botón -->
+    <section>
+        <h2>1. Botón que cambia texto</h2>
+        <button id="botonTexto">Haz clic aquí</button>
+        <p id="mensajeTexto">Esperando clic...</p>
+    </section>
+
+    <!-- Ejercicio 2: Caja que cambia de color -->
+    <section>
+        <h2>2. Caja que cambia de color con el mouse</h2>
+        <div id="cajaColores" class="caja"></div>
+    </section>
+
+    <!-- Ejercicio 3: Tecla presionada -->
+    <section>
+        <h2>3. Mostrar la tecla presionada</h2>
+        <input type="text" id="inputTecla" placeholder="Escribe algo">
+        <p id="teclaMostrada">Presiona una tecla</p>
+    </section>
+
+    <!-- Ejercicio 4: Contador -->
+<section>
+    <h2>4. Contador con botones</h2>
+    <button id="btnSumar">➕ Sumar</button>
+    <button id="btnRestar">➖ Restar</button>
+    <p id="contador">0</p>
+</section>
+
+<!-- Ejercicio 5: Doble clic cambia color -->
+<section id="seccionDobleClick">
+    <h2>5. Doble clic cambia color de fondo</h2>
+    <p>Doble clic en esta sección para cambiar su color</p>
+</section>
+
+<!-- Ejercicio 6: Validar email -->
+<section>
+    <h2>6. Validar formato de email</h2>
+    <input type="text" id="emailInput" placeholder="Escribe tu email">
+    <p id="mensajeEmail"></p>
+</section>
+
+<!-- Ejercicio 7: Temporizador simple -->
+<section>
+    <h2>7. Temporizador</h2>
+    <button id="iniciarTemporizador">Iniciar</button>
+    <p id="temporizador">0 segundos</p>
+</section>
+
+<!-- Ejercicio 8: Botón que desactiva otro botón -->
+<section>
+    <h2>8. Desactivar botón y activar otro</h2>
+    <button id="btnDesactivar">Desactivar el otro</button>
+    <button id="btnDesactivado">Yo seré desactivado</button>
+    <button id="btnActivar">Activarme cuando desactiven</button>
+</section>
+
+<!-- Ejercicio 9: Mostrar/Ocultar caja -->
+<section>
+    <h2>9. Toggle: Mostrar/Ocultar caja</h2>
+    <button id="btnToggleCaja">Mostrar/Ocultar</button>
+    <div id="toggleCaja" class="caja" style="display: none;"></div>
+</section>
+
+<!-- Ejercicio 10: Cambiar imagen al pasar el mouse -->
+<section>
+    <h2>10. Imagen con efecto hover</h2>
+    <img id="imagenHover" src="imagenfuturo.png" alt="Imagen" width="150">
+</section>
+
+<!-- Ejercicio 11: Scroll - mensaje -->
+<section>
+    <h2>11. Detectar scroll en página</h2>
+    <p id="mensajeScroll" class="scrollMensaje" style="display:none;">📜 Estás haciendo scroll...</p>
+</section>
+
+<!-- Ejercicio 12: Focus y blur en input -->
+<section>
+    <h2>12. Input con focus y blur</h2>
+    <input type="text" id="inputFocusBlur" placeholder="Enfócame y desenfócame">
+</section>
+
+<!-- Ejercicio 13: Evento change en select -->
+<section>
+    <h2>13. Selección con select</h2>
+    <select id="selectColores">
+        <option value="">--Selecciona un color--</option>
+        <option value="Rojo">Rojo</option>
+        <option value="Verde">Verde</option>
+        <option value="Azul">Azul</option>
+        <option value="Amarillo">Amarillo</option>
+    </select>
+    <p id="colorSeleccionado">color seleccionado: ninguno</p>
+</section>
+
+<!-- Ejercicio 14: Resize ventana -->
+<section>
+    <h2>14. Mostrar tamaño de ventana (resize)</h2>
+    <p id="tamañoVentana">Ancho x Alto: -- x --</p>
+</section>
+
+<!-- Ejercicio 15: Validación de formulario -->
+<section>
+    <h2>15. Validar formulario simple</h2>
+    <form id="formularioSimple">
+        <input type="text" id="nombreForm" placeholder="Nombre">
+        <button type="submit">Enviar</button>
+    </form>
+    <p id="mensajeForm"></p>
+</section>
+
+<script src="js/main.js"></script>
+</body>
+</html>
